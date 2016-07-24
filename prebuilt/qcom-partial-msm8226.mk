@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
 	hci_qcomm_init \
 	irsc_util \
 	mlog_qmi_service \
-	mm-qcamera-daemon \
 	netmgrd \
 	pm-proxy \
 	pm-service \
@@ -26,51 +25,8 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
-	wcnss_service \
 	libQSEEComAPI \
-	libactuator_bu64291gwz \
-	libactuator_bu64291gwz_camcorder \
-	libactuator_bu64291gwz_camera \
-	libactuator_dw9714 \
-	libactuator_dw9714_camcorder \
-	libactuator_dw9714_camera \
 	libadsprpc \
-	libchromatix_imx134_common \
-	libchromatix_imx134_cpp_liveshot \
-	libchromatix_imx134_cpp_preview \
-	libchromatix_imx134_cpp_snapshot \
-	libchromatix_imx134_cpp_video \
-	libchromatix_imx134_default_video \
-	libchromatix_imx134_liveshot \
-	libchromatix_imx134_postproc \
-	libchromatix_imx134_preview \
-	libchromatix_imx134_snapshot \
-	libchromatix_imx135_common \
-	libchromatix_imx135_cpp_hfr_120 \
-	libchromatix_imx135_cpp_hfr_60 \
-	libchromatix_imx135_cpp_hfr_90 \
-	libchromatix_imx135_cpp_liveshot \
-	libchromatix_imx135_cpp_preview \
-	libchromatix_imx135_cpp_snapshot \
-	libchromatix_imx135_cpp_video \
-	libchromatix_imx135_default_video \
-	libchromatix_imx135_hfr_120 \
-	libchromatix_imx135_hfr_60 \
-	libchromatix_imx135_hfr_90 \
-	libchromatix_imx135_liveshot \
-	libchromatix_imx135_postproc \
-	libchromatix_imx135_preview \
-	libchromatix_imx135_snapshot \
-	libchromatix_imx188_common \
-	libchromatix_imx188_cpp_liveshot \
-	libchromatix_imx188_cpp_preview \
-	libchromatix_imx188_cpp_snapshot \
-	libchromatix_imx188_cpp_video \
-	libchromatix_imx188_default_video \
-	libchromatix_imx188_liveshot \
-	libchromatix_imx188_postproc \
-	libchromatix_imx188_preview \
-	libchromatix_imx188_snapshot \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
@@ -84,73 +40,7 @@ PRODUCT_PACKAGES += \
 	libloc_ds_api \
 	libmdmdetect \
 	libmiscta \
-	libmmcamera2_c2d_module \
-	libmmcamera2_cpp_module \
-	libmmcamera2_frame_algorithm \
-	libmmcamera2_iface_modules \
-	libmmcamera2_imglib_modules \
-	libmmcamera2_is \
-	libmmcamera2_isp_modules \
-	libmmcamera2_pp_buf_mgr \
-	libmmcamera2_pproc_modules \
-	libmmcamera2_q3a_core \
-	libmmcamera2_sensor_debug \
-	libmmcamera2_sensor_modules \
-	libmmcamera2_stats_algorithm \
-	libmmcamera2_stats_modules \
-	libmmcamera2_vpe_module \
-	libmmcamera2_wnr_module \
-	libmmcamera_cac2_lib \
-	libmmcamera_eeprom_util \
-	libmmcamera_eztune_module \
-	libmmcamera_faceproc \
-	libmmcamera_hdr_gb_lib \
-	libmmcamera_imglib \
-	libmmcamera_imx134 \
-	libmmcamera_imx135 \
-	libmmcamera_imx188 \
-	libmmcamera_isp_abf40 \
-	libmmcamera_isp_bcc40 \
-	libmmcamera_isp_be_stats44 \
-	libmmcamera_isp_bf_stats40 \
-	libmmcamera_isp_bg_stats44 \
-	libmmcamera_isp_bhist_stats44 \
-	libmmcamera_isp_bpc40 \
-	libmmcamera_isp_chroma_enhan40 \
-	libmmcamera_isp_chroma_suppress40 \
-	libmmcamera_isp_clamp_encoder40 \
-	libmmcamera_isp_clamp_video40 \
-	libmmcamera_isp_clamp_viewfinder40 \
-	libmmcamera_isp_color_correct40 \
-	libmmcamera_isp_color_xform_encoder40 \
-	libmmcamera_isp_color_xform_viewfinder40 \
-	libmmcamera_isp_cs_stats44 \
-	libmmcamera_isp_demosaic40 \
-	libmmcamera_isp_demux40 \
-	libmmcamera_isp_fovcrop_encoder40 \
-	libmmcamera_isp_fovcrop_viewfinder40 \
-	libmmcamera_isp_gamma40 \
-	libmmcamera_isp_ihist_stats44 \
-	libmmcamera_isp_linearization40 \
-	libmmcamera_isp_luma_adaptation40 \
-	libmmcamera_isp_mce40 \
-	libmmcamera_isp_mesh_rolloff40 \
-	libmmcamera_isp_rs_stats44 \
-	libmmcamera_isp_scaler_encoder40 \
-	libmmcamera_isp_scaler_viewfinder40 \
-	libmmcamera_isp_sce40 \
-	libmmcamera_isp_sub_module \
-	libmmcamera_isp_wb40 \
-	libmmcamera_ppbase_module \
-	libmmcamera_tintless_algo \
-	libmmcamera_tintless_bg_pca_algo \
-	libmmcamera_tuning \
-	libmmcamera_vpu_module \
-	libmmjpeg \
-	libmmqjpeg_codec \
-	libmmqjpegdma \
 	libnetmgr \
-	liboemcamera \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -163,8 +53,6 @@ PRODUCT_PACKAGES += \
 	libqmi_csi \
 	libqmi_encdec \
 	libqmiservices \
-	libqomx_jpegdec \
-	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
 	libril-qc-qmi-1 \
 	libril-qc-qmi-2 \
